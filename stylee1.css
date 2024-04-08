@@ -1,0 +1,144 @@
+*{ padding: 0; margin: 0; box-sizing: border-box;} 
+.nav1{
+width: 100%;
+height: 40px;
+background-color: rgb(44, 40, 40);
+position:sticky;
+display: flex;
+}
+.emil{ color: #fff; margin-left: 30px; margin-top: 10px;} .phone{ color: #fff; margin-left: 10px; margin-top: 10px;}
+.iconee{ position: absolute; top: 10; right: 30;}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px 0px 70px;
+position:fixed;
+}
+nav ul li { margin : 0px 80px}
+nav ul {display: flex; list-style:none ; }
+nav ul li a {
+color:rgb(204, 198, 198);
+text-decoration: none;}    .zy{ font-size: 30px; color:rgb(54, 245, 54); font-weight: 600;}
+#minu{ display: none;}
+.crt::after{ content:"07" ; position: absolute;  top: 20px;
+border: 1px solid gainsboro; border-radius: 50px; background-color: #c4b7bb; }
+.uer::after{content: "+99"; position: absolute; border: 1px solid gainsboro ; border-radius: 80px; top: 20px;
+background-color:#c4b7bb;}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color:#EFEFEF;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+margin: auto;
+flex-direction: row;
+padding: 10px 20px;
+}
+ .onee{ position: absolute; width:50px ; height: 4px; background-color: green; bottom: 0;; right: 650;}
+ .onee::before{
+    content: "";
+    width: 50px; height: 4px; position: absolute; background-color: rgb(15, 226, 15); left: -60px;}
+    .onee::after{
+        content: "";
+        width: 50px; height: 4px; position: absolute; background-color: rgb(15, 226, 15); right: -60px;}
+ 
+    .hero h1{color:rgb(207, 203, 203);}
+    .pone{color: gray; margin-top: 5px; margin-right: 5px;
+    font-size: larger; font-family: Arial, Helvetica, sans-serif;} p{ color: rgb(80, 71, 71); margin-top: 5px; font-family: Georgia, 'Times New Roman', Times, serif;}
+   
+   .hero .prgrf1::before{content: "<"; color: rgb(54, 245, 54); position: absolute; left: 40px; margin-top: 20px;  }
+   .hero .imgg::after{ content: ">"; color:rgb(54, 245, 54) ; position: absolute; right: 40px; margin-top: 60px;}
+   .Homeprpduct{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    padding:   30px 100px;
+   }
+
+   .prgrf1 h1{ color:rgb(207, 203, 203); margin-top: 30px; margin-left: 350px; font-size: xx-large; }
+   .prgrf1 p{color:gray; margin-left: 350px; }
+   .homprgrf{ display: flex; flex-direction: column; align-items: center;  color: gray;margin-right: 90px; margin-left: 20px;}
+
+   .homprgrf h1{color:rgb(207, 203, 203); margin-top: 50px; margin-right: 20px; }
+.homprgrf p{ color: gray; margin-left: 30px;}
+
+   .homeimg{ display: flex; justify-content:space-between; align-items: center;
+     flex-wrap: wrap;  margin:70px 300px }
+
+.homemyimg img{ border-radius: 50px ; margin-right: 10px; }
+.homemyimg button{ 
+    color:  #fff;
+    padding: 10px;
+border: 1px solid #fff;
+border-radius: 10px;
+background-color: green;
+margin-top: 5px;} .homemyimg h4{ margin-top: 5px;}
+  .Homecard{
+    width: 100%;
+    background-color: rgb(190, 183, 183);}
+.Homeprgrf2{
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+
+} 
+.Homeprgrf2 h1{ 
+color:rgb(207, 203, 203); margin-top: 50px; margin-right: 50px; font-size:xx-large ; }
+.Homeprgrf2 p{color:gray; margin-left: 200px; }
+ .card h2{ color:gray ; margin-left: 10px;} .card  h3{ color: #5c595a; margin-top: 30px; margin-left: 10px;}
+.cards{
+    display: flex; justify-content: space-between; width: 90%; height: 600px; align-items: center; margin-left: 80px;
+    flex-wrap: wrap;
+}
+.card{ width: 300px; height: max-content;  border: 1px solid #fff; background-color: #fff; border-radius: 20px;}
+  .card img{ width: 100%; height:200px; border-radius: 20px; }
+.card i{ margin-left: 10px; margin-top: 10px;} .card p{margin-left: 10px;}
+ .onefoot {
+    width: 100%;  background-color: rgb(66, 63, 70); padding: 30px;}
+
+.onefoot .adrees{ display: flex; justify-content: space-between; align-items: center; margin: 10px 100px;}
+.onefoot #ZZ{ color: rgb(26, 245, 26);} .onefoot h2 { color: #fff; }
+.column{ display: flex; justify-content: space-between; align-items: center; margin: 0px 100px; border-bottom:color rgb(119, 114, 118) solid 1px; }
+.prgrff{ margin-right: 50px;} .columnone{ margin-bottom: 50px;} .prgrfend{margin-bottom: 30px;}
+.prgrff #Gym{ color: rgb(46, 238, 46);} .iiccon{ margin-left: 50px; } .eend{ display: flex; justify-content: space-between;
+margin-right: 50px;}
+  input[type=text]{padding: 7px; border: 1px solid rgb(92, 91, 94) ; background-color:rgb(66, 63, 70); margin-bottom: 20px;}
+form button{ padding: 10px; background-color:rgb(51, 235, 34); color: #fff; margin-bottom: 20px; border-radius: 10px; border: 1px solid #fff;
+} 
+.twofoot{ width: 100%; background-color: #5c595a; display: flex; padding: 20px; } .twofoot p{ color: #fff; margin-left: 20px;}
+.adrees{ border-bottom: color rgb(119, 114, 118)  solid 1px ;}
+.column h4{ color: #fff;}  .columnone #phonee{ color: #fff;} .columnone #loction{color: #fff;}
+.columnone #emilee{color: #fff; } button:hover{ background-color: #272222; cursor: pointer;}
+@media ( max-width: 767px) /*for only screen mobile*/{
+ 
+ .nav1{ display: none;}   nav ul{display: none;}
+ .crt{ display: none;} .uer{display: none;}  .oo{ display: none;}  #minu{ display: contents;}
+ .hero{ display: flex; flex-wrap: wrap;} .prgrf1{margin-right: 150px; margin-top: 50px;}
+ .hero .prgrf1::before{content: "<"; color: rgb(54, 245, 54); position: absolute; bottom: 120px;  }
+
+.onee::before{
+  content: "";
+  width: 50px; height: 4px; position: absolute; background-color: rgb(15, 226, 15); left: -60px; margin-left: 200px;}
+  .Homeprpduct{ display: flex;  flex-direction: column; justify-content: space-between; align-items: center; }
+  .homeimg{ display: flex; justify-content:space-between;
+    flex-wrap: wrap;  margin:20px 100px;  }
+    .Homecard{ width: 100%; display: flex; flex-wrap: wrap; flex-direction: column; 
+    justify-content: space-between;}
+    .Homeprgrf2{ display: flex; flex-wrap: wrap; flex-direction: column; margin-right: 200px;}
+    .cards{
+      display: flex;  flex-direction: column;  justify-content:space-between; flex-wrap: wrap;
+      margin-bottom: 700px; display: block;  margin-top: 20px;   margin-left: 200px;
+    }
+ }
+
+
+
+
+

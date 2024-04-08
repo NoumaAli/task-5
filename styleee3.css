@@ -1,0 +1,66 @@
+*{ padding: 0; margin: 0; box-sizing: border-box;} 
+.nav1{
+width: 100%;
+height: 40px;
+background-color: rgb(44, 40, 40);
+position:sticky;
+display: flex;
+}
+.emil{ color: #fff; margin-left: 30px; margin-top: 10px;} .phone{ color: #fff; margin-left: 10px; margin-top: 10px;}
+.iconee{ position: absolute; top: 10px; right: 30px;}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px 0px 70px;
+position:fixed;
+}
+nav ul li { margin : 0px 80px}
+nav ul {display: flex; list-style:none ; }
+nav ul li a {
+color:rgb(204, 198, 198);
+text-decoration: none;}    .zy{ font-size: 30px; color:rgb(54, 245, 54); font-weight: 600;}
+#minu{ display: none;}
+.crt::after{ content:"07" ; position: absolute;  top: 20px;
+border: 1px solid gainsboro; border-radius: 50px; background-color: #c4b7bb; }
+.uer::after{content: "+99"; position: absolute; border: 1px solid gainsboro ; border-radius: 80px; top: 20px;
+background-color:#c4b7bb;}
+.heroo{ width: 100%;  height: 250px; background-color: #c4b7bb;}
+.prgrf1{ display: flex; flex-direction: column;  align-items: center; color: gray;  }
+.prgrf1 h1{ margin-top: 100px;}
+
+.map{ width: 100%; height: 400px; background-color: gray; display: flex; justify-content: center;}
+
+iframe{border-radius: 50%; margin-top: 20px;}
+.three{ width: 100%; background-color: aliceblue; height: 500px; background-color: #cf7c95;}
+.lin{ display: flex;} .two{ margin-left: 50px;}
+ form{ margin-left: 300px;} .three h3{ color: #c4b7bb; margin-top: 30px;}
+ ::placeholder{ color: #c4b7bb;}  .three input{ width: 300px; padding: 8px; background-color: #5c595a;border-radius: 10px;
+     border: 1px solid rgb(156, 146, 146);}
+ textarea { padding: 50px; border:  1px solid rgb(131, 127, 127); border-radius: 10px; width: 600px; background-color:rgb(66, 63, 70) ;}
+ .three button{ padding: 10px; background-color:rgb(174, 179, 174); color: #fff; margin-bottom: 20px;
+     border-radius: 10px; border: 1px solid #fff; margin-left: 550px;}
+     textarea::placeholder{ position: absolute; top: 3px; left: 6px; font-size: larger; color: #c4b7bb;}
+
+     .onefoot {
+        width: 100%;  background-color: rgb(66, 63, 70); padding: 30px;}
+    
+    .onefoot .adrees{ display: flex; justify-content: space-between; align-items: center; margin: 10px 100px;}
+    .onefoot #ZZ{ color: rgb(54, 245, 54);} .onefoot h2 { color: #fff; }
+    .column{ display: flex; justify-content: space-between; align-items: center; margin: 0px 100px; border-bottom:color rgb(119, 114, 118) solid 1px; }
+    .prgrff{ margin-right: 50px;} .columnone{ margin-bottom: 50px;} .prgrfend{margin-bottom: 30px;}
+     .iiccon{ margin-left: 50px; } .eend{ display: flex; justify-content: space-between;
+    margin-right: 50px;}
+      input[type=text]{padding: 7px; border: 1px solid rgb(92, 91, 94) ; background-color:rgb(66, 63, 70); margin-bottom: 20px;}
+    form button{ padding: 10px; background-color:rgb(51, 235, 34); color: #fff; margin-bottom: 20px; border-radius: 10px; border: 1px solid #fff;
+    }  button:hover{ background-color: rgb(41, 202, 149); cursor: pointer;}
+    .twofoot{ width: 100%; background-color: #5c595a; display: flex; padding: 20px; } .twofoot p{ color: #fff; margin-left: 20px;}
+    .adrees{ border-bottom: color rgb(119, 114, 118)  solid 1px ;}
+    .column h4{ color: #fff;}  .columnone #phonee{ color: #fff;} .columnone #loction{color: #fff;}
+    .columnone #emilee{color: #fff; } button:hover{ background-color: #272222; cursor: pointer;}
+    
+
+    
